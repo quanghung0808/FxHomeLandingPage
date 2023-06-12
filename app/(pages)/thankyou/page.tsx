@@ -12,7 +12,7 @@ export default function SignIn() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           {/* Form */}
-          <div className="max-w-sm mx-auto" style={{textAlign: "-webkit-center"}}>
+          <div className="max-w-sm mx-auto flex justify-center" >
             <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Check_green_circle.svg/2048px-Check_green_circle.svg.png" width={200} height={200} alt="abc"/>
           </div>
           {/* Page header */}
