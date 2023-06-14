@@ -15,7 +15,7 @@ export default function SignIn() {
           <div className="max-w-sm mx-auto flex justify-center" >
             <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Check_green_circle.svg/2048px-Check_green_circle.svg.png" width={200} height={200} alt="abc"/>
           </div>
-          {/* Page header */}
+          {/* Page header */}   
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h1 className="h1 text-lime-500">Thanh toán thành công</h1>
           </div>
