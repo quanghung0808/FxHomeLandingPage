@@ -375,6 +375,70 @@ export default function Dashboard() {
                         </td>
                         <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                           <div className="flex">
+                            <div className="ml-3">
+                              <p className="text-gray-900 whitespace-no-wrap py-1">
+                                -
+                              </p>
+                            </div>
+                          </div>
+                        </td>
+                        <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                          <span className="relative inline-block py-1 font-medium text-gray-800 leading-tight">
+                            <span className="relative">FX00005</span>
+                          </span>
+                        </td>
+                        <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                          <p className="text-gray-900 whitespace-no-wrap py-1">
+                            -
+                          </p>
+                        </td>
+                        <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                          <p className="text-gray-900 whitespace-no-wrap py-1">
+                            -
+                          </p>
+                        </td>
+
+                        <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                          <span className="relative inline-block px-3 py-1 font-medium text-gray-900 leading-tight">
+                            <span
+                              aria-hidden
+                              className="absolute inset-0 bg-amber-200  rounded-full"
+                            ></span>
+                            <span className="relative">Tiền mặt</span>
+                          </span>
+                        </td>
+                        <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                          <span className="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
+                            <span
+                              aria-hidden
+                              className="absolute inset-0 bg-red-200 opacity-50 rounded-full"
+                            ></span>
+                            <span className="relative">Hủy</span>
+                          </span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                          <div className="flex">
+                            <div className="flex-shrink-0 w-10 h-10">
+                              <img
+                                className="w-full h-full rounded-full"
+                                src="https://cdn4.vectorstock.com/i/1000x1000/60/48/male-default-placeholder-avatar-profile-gray-vector-31826048.jpg"
+                                alt=""
+                              />
+                            </div>
+                            <div className="ml-3">
+                              <p className="text-gray-900 whitespace-no-wrap">
+                                Hồ Tấn Phát
+                              </p>
+                              <p className="text-gray-600 whitespace-no-wrap">
+                                ID: 000005
+                              </p>
+                            </div>
+                          </div>
+                        </td>
+                        <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                          <div className="flex">
                             <div className="flex-shrink-0 w-10 h-10">
                               <img
                                 className="w-full h-full rounded-full"
@@ -394,7 +458,7 @@ export default function Dashboard() {
                         </td>
                         <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                           <span className="relative inline-block py-1 font-medium text-gray-800 leading-tight">
-                            <span className="relative">FX00005</span>
+                            <span className="relative">FX00006</span>
                           </span>
                         </td>
                         <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
@@ -471,7 +535,7 @@ export default function Dashboard() {
                         </td>
                         <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                           <span className="relative inline-block py-1 font-medium text-gray-800 leading-tight">
-                            <span className="relative">FX00006</span>
+                            <span className="relative">FX00007</span>
                           </span>
                         </td>
                         <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
@@ -504,6 +568,70 @@ export default function Dashboard() {
                               className="absolute inset-0 bg-green-200 opacity-50 rounded-full"
                             ></span>
                             <span className="relative">Hoàn thành</span>
+                          </span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                          <div className="flex">
+                            <div className="flex-shrink-0 w-10 h-10">
+                              <img
+                                className="w-full h-full rounded-full"
+                                src="https://media.istockphoto.com/id/477333976/photo/female-portrait-icon-as-avatar-or-profile-picture.jpg?s=612x612&w=0&k=20&c=GL-wQYLh_UlsqeFvkgCwQXWFDFTtz0ApA1e7WPZdfYY="
+                                alt=""
+                              />
+                            </div>
+                            <div className="ml-3">
+                              <p className="text-gray-900 whitespace-no-wrap">
+                                Nguyễn Thị Diễm My
+                              </p>
+                              <p className="text-gray-600 whitespace-no-wrap">
+                                ID: 000006
+                              </p>
+                            </div>
+                          </div>
+                        </td>
+                        <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                          <div className="flex">
+                            <div className="ml-3">
+                              <p className="text-gray-900 whitespace-no-wrap py-1">
+                                -
+                              </p>
+                            </div>
+                          </div>
+                        </td>
+                        <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                          <span className="relative inline-block py-1 font-medium text-gray-800 leading-tight">
+                            <span className="relative">FX00008</span>
+                          </span>
+                        </td>
+                        <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                          <p className="text-gray-900 whitespace-no-wrap py-1">
+                            -
+                          </p>
+                        </td>
+                        <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                          <p className="text-gray-900 whitespace-no-wrap py-1">
+                            -
+                          </p>
+                        </td>
+
+                        <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                          <span className="relative inline-block px-3 py-1 font-medium text-gray-900 leading-tight">
+                            <span
+                              aria-hidden
+                              className="absolute inset-0 bg-amber-200  rounded-full"
+                            ></span>
+                            <span className="relative">Tiền mặt</span>
+                          </span>
+                        </td>
+                        <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                          <span className="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
+                            <span
+                              aria-hidden
+                              className="absolute inset-0 bg-red-200 opacity-50 rounded-full"
+                            ></span>
+                            <span className="relative">Hủy</span>
                           </span>
                         </td>
                       </tr>
