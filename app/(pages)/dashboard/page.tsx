@@ -22,6 +22,22 @@ export default function Dashboard() {
         <div className="pt-32 pb-12 md:pt-32 md:pb-20">
           <div className="container mx-auto px-4 sm:px-8">
             <div className="pb-4">
+              <div className="mb-8">
+                <h2 className="text-3xl font-semibold leading-tight text-red-600 mb-2">
+                  Thống kê
+                </h2>
+                <div className="flex justify-between">
+                  <h2 className="text-xl font-semibold leading-tight text-gray-500">
+                    Tổng số đơn hàng: 12
+                  </h2>
+                  <h2 className="text-xl font-semibold leading-tight text-gray-500">
+                    Đơn hàng hoàn thành: 11
+                  </h2>
+                  <h2 className="text-xl font-semibold leading-tight text-gray-500">
+                    Tổng doanh thu: 2.150.000 VNĐ
+                  </h2>
+                </div>
+              </div>
               <div>
                 <h2 className="text-3xl font-semibold leading-tight text-red-600">
                   Lịch sử thanh toán
@@ -51,7 +67,7 @@ export default function Dashboard() {
                           Phương thức thanh toán
                         </th>
                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">
-                          Bằng chứng
+                          Hình ảnh
                         </th>
                         <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">
                           Trạng thái đơn hàng
@@ -207,7 +223,7 @@ export default function Dashboard() {
                           </span>
                         </td>
                         <td className="border-b border-gray-200 bg-white text-sm">
-                          <div className="flex-shrink-0 h-64">
+                          <div className="flex-shrink-0 h-80">
                             <Image
                               className="w-full h-full "
                               src={pic1}
@@ -293,7 +309,7 @@ export default function Dashboard() {
                           </span>
                         </td>
                         <td className="border-b border-gray-200 bg-white text-sm">
-                          <div className="flex-shrink-0 h-64">
+                          <div className="flex-shrink-0 h-80">
                             <Image
                               className="w-full h-full "
                               src={pic5}
@@ -520,7 +536,7 @@ export default function Dashboard() {
                           </span>
                         </td>
                         <td className="border-b border-gray-200 bg-white text-sm">
-                          <div className="flex-shrink-0 h-64">
+                          <div className="flex-shrink-0 h-80">
                             <Image
                               className="w-full h-full "
                               src={pic2}
@@ -607,7 +623,7 @@ export default function Dashboard() {
                           </span>
                         </td>
                         <td className="border-b border-gray-200 bg-white text-sm">
-                          <div className="flex-shrink-0 h-64">
+                          <div className="flex-shrink-0 h-80">
                             <Image
                               className="w-full h-full "
                               src={pic3}
@@ -695,7 +711,7 @@ export default function Dashboard() {
                           </span>
                         </td>
                         <td className="border-b border-gray-200 bg-white text-sm">
-                          <div className="flex-shrink-0 h-64">
+                          <div className="flex-shrink-0 h-80">
                             <Image
                               className="w-full h-full "
                               src={pic4}
@@ -782,7 +798,7 @@ export default function Dashboard() {
                           </span>
                         </td>
                         <td className="border-b border-gray-200 bg-white text-sm">
-                          <div className="flex-shrink-0 h-64">
+                          <div className="flex-shrink-0 h-80">
                             <Image
                               className="w-full h-full "
                               src={pic6}
@@ -1030,7 +1046,7 @@ export default function Dashboard() {
                           </span>
                         </td>
                         <td className="border-b border-gray-200 bg-white text-sm">
-                          <div className="flex-shrink-0 h-64">
+                          <div className="flex-shrink-0 h-80">
                             <Image
                               className="w-full h-full "
                               src={pic7}
